@@ -1,0 +1,71 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui">
+    
+    <g:HTMLPanel>
+    <div class="main">
+    <div class="namebox">
+    <g:Label>Enter full Name</g:Label>
+     <g:TextBox ui:field="name"></g:TextBox>
+    </div>
+    
+    <div class="age">
+    <g:Label>Age</g:Label>
+    <g:IntegerBox ui:field="age"></g:IntegerBox>
+    </div>
+    <div class = "number">
+    <g:Label>Mobile Number</g:Label>
+    <g:TextBox ui:field="mobnumber"></g:TextBox>
+    </div>
+    
+    <div class="email">
+    <g:Label>Email ID</g:Label>
+    <g:TextBox ui:field="email"></g:TextBox>
+    </div>
+    <div class="button">
+    <g:Button ui:field="submit" >Submit and Go</g:Button>
+    </div>
+   </div>
+   <div class ="display">
+   <g:HTMLPanel  ui:field="tablePanel">
+ 
+    </g:HTMLPanel>
+   </div>
+    <style>
+    .namebox
+    {
+    padding:1%;
+    }
+    .age
+    {
+    padding:1%;
+    }
+    
+    .number
+    {
+     padding:1%;
+    }
+    
+    .email
+    {
+     padding:1%;
+    }
+    .main
+    {
+    margin-top: 60px;
+    margin-left: 30%;
+    }
+    .display
+    {
+      margin-left: 24%;
+      margin-top: 5%;
+    }
+    .button
+    {
+    margin-left:4%
+    }
+    </style>
+    </g:HTMLPanel>
+    
+    
+</ui:UiBinder>

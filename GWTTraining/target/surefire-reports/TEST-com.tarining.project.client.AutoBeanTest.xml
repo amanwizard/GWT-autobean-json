@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="com.tarining.project.client.AutoBeanTest" time="5.368" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/aman/workspace/GWTTraining"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/aman/workspace/GWTTraining"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="/tmp/surefirebooter5185361015236017641.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/aman/workspace/GWTTraining/target/test-classes:/home/aman/workspace/GWTTraining/target/GWTTraining-1.0-SNAPSHOT/WEB-INF/classes:/home/aman/.m2/repository/com/google/gwt/gwt-user/2.7.0/gwt-user-2.7.0.jar:/home/aman/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/home/aman/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA-sources.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-mvp-client/1.5.3/gwtp-mvp-client-1.5.3.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-clients-common/1.5.3/gwtp-clients-common-1.5.3.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-mvp-shared/1.5.3/gwtp-mvp-shared-1.5.3.jar:/home/aman/.m2/repository/com/google/gwt/gwt-dev/2.7.0/gwt-dev-2.7.0.jar:/home/aman/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/home/aman/.m2/repository/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar:/home/aman/.m2/repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar:/home/aman/.m2/repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar:/home/aman/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/aman/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/aman/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-dispatch-rpc-client/1.5.3/gwtp-dispatch-rpc-client-1.5.3.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-dispatch-common-client/1.5.3/gwtp-dispatch-common-client-1.5.3.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-dispatch-rpc-server-guice/1.5.3/gwtp-dispatch-rpc-server-guice-1.5.3.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-dispatch-rpc-server/1.5.3/gwtp-dispatch-rpc-server-1.5.3.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-dispatch-rpc-shared/1.5.3/gwtp-dispatch-rpc-shared-1.5.3.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-dispatch-common-shared/1.5.3/gwtp-dispatch-common-shared-1.5.3.jar:/home/aman/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar:/home/aman/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/aman/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/aman/.m2/repository/com/google/inject/extensions/guice-servlet/3.0/guice-servlet-3.0.jar:/home/aman/.m2/repository/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.jar:/home/aman/.m2/repository/com/google/gwt/inject/gin/2.1.2/gin-2.1.2.jar:/home/aman/.m2/repository/com/google/appengine/appengine-api-1.0-sdk/1.9.2/appengine-api-1.0-sdk-1.9.2.jar:/home/aman/.m2/repository/com/google/appengine/appengine-api-labs/1.9.2/appengine-api-labs-1.9.2.jar:/home/aman/.m2/repository/com/google/appengine/appengine-api-stubs/1.9.2/appengine-api-stubs-1.9.2.jar:/home/aman/.m2/repository/com/google/appengine/appengine-testing/1.9.2/appengine-testing-1.9.2.jar:/home/aman/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/home/aman/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/aman/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/aman/.m2/repository/org/jukito/jukito/1.4/jukito-1.4.jar:/home/aman/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar:/home/aman/.m2/repository/org/objenesis/objenesis/1.0/objenesis-1.0.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.13.0-24-generic"/>
+    <property name="user.home" value="/home/aman"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="aman"/>
+    <property name="java.class.path" value="/home/aman/workspace/GWTTraining/target/test-classes:/home/aman/workspace/GWTTraining/target/GWTTraining-1.0-SNAPSHOT/WEB-INF/classes:/home/aman/.m2/repository/com/google/gwt/gwt-user/2.7.0/gwt-user-2.7.0.jar:/home/aman/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar:/home/aman/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA-sources.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-mvp-client/1.5.3/gwtp-mvp-client-1.5.3.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-clients-common/1.5.3/gwtp-clients-common-1.5.3.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-mvp-shared/1.5.3/gwtp-mvp-shared-1.5.3.jar:/home/aman/.m2/repository/com/google/gwt/gwt-dev/2.7.0/gwt-dev-2.7.0.jar:/home/aman/.m2/repository/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar:/home/aman/.m2/repository/org/ow2/asm/asm-util/5.0.3/asm-util-5.0.3.jar:/home/aman/.m2/repository/org/ow2/asm/asm-tree/5.0.3/asm-tree-5.0.3.jar:/home/aman/.m2/repository/org/ow2/asm/asm-commons/5.0.3/asm-commons-5.0.3.jar:/home/aman/.m2/repository/org/apache/velocity/velocity/1.7/velocity-1.7.jar:/home/aman/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/aman/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-dispatch-rpc-client/1.5.3/gwtp-dispatch-rpc-client-1.5.3.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-dispatch-common-client/1.5.3/gwtp-dispatch-common-client-1.5.3.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-dispatch-rpc-server-guice/1.5.3/gwtp-dispatch-rpc-server-guice-1.5.3.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-dispatch-rpc-server/1.5.3/gwtp-dispatch-rpc-server-1.5.3.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-dispatch-rpc-shared/1.5.3/gwtp-dispatch-rpc-shared-1.5.3.jar:/home/aman/.m2/repository/com/gwtplatform/gwtp-dispatch-common-shared/1.5.3/gwtp-dispatch-common-shared-1.5.3.jar:/home/aman/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar:/home/aman/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/aman/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/aman/.m2/repository/com/google/inject/extensions/guice-servlet/3.0/guice-servlet-3.0.jar:/home/aman/.m2/repository/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.jar:/home/aman/.m2/repository/com/google/gwt/inject/gin/2.1.2/gin-2.1.2.jar:/home/aman/.m2/repository/com/google/appengine/appengine-api-1.0-sdk/1.9.2/appengine-api-1.0-sdk-1.9.2.jar:/home/aman/.m2/repository/com/google/appengine/appengine-api-labs/1.9.2/appengine-api-labs-1.9.2.jar:/home/aman/.m2/repository/com/google/appengine/appengine-api-stubs/1.9.2/appengine-api-stubs-1.9.2.jar:/home/aman/.m2/repository/com/google/appengine/appengine-testing/1.9.2/appengine-testing-1.9.2.jar:/home/aman/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/home/aman/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/aman/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/aman/.m2/repository/org/jukito/jukito/1.4/jukito-1.4.jar:/home/aman/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar:/home/aman/.m2/repository/org/objenesis/objenesis/1.0/objenesis-1.0.jar:"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="sun.java.command" value="/tmp/surefirebooter5185361015236017641.jar /tmp/surefire1648223077947035905tmp /tmp/surefire2864884164733614495tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/home/aman/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.tarining.project.client.AutoBeanTest" name="testDecodePerson" time="2.789"/>
+  <testcase classname="com.tarining.project.client.AutoBeanTest" name="testEncodePeople" time="0.006">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.google.web.bindery.autobean.shared.impl.AutoBeanCodexImpl.doEncode(AutoBeanCodexImpl.java:560)
+	at com.google.web.bindery.autobean.shared.impl.AutoBeanCodexImpl$ObjectCoder.encode(AutoBeanCodexImpl.java:321)
+	at com.google.web.bindery.autobean.shared.impl.AutoBeanCodexImpl$CollectionCoder.encode(AutoBeanCodexImpl.java:163)
+	at com.google.web.bindery.autobean.shared.impl.AutoBeanCodexImpl$PropertyGetter.encodeProperty(AutoBeanCodexImpl.java:413)
+	at com.google.web.bindery.autobean.shared.impl.AutoBeanCodexImpl$PropertyGetter.visitReferenceProperty(AutoBeanCodexImpl.java:389)
+	at com.google.web.bindery.autobean.shared.AutoBeanVisitor.visitCollectionProperty(AutoBeanVisitor.java:229)
+	at com.google.web.bindery.autobean.vm.impl.ProxyAutoBean.traverseProperties(ProxyAutoBean.java:356)
+	at com.google.web.bindery.autobean.shared.impl.AbstractAutoBean.traverse(AbstractAutoBean.java:166)
+	at com.google.web.bindery.autobean.shared.impl.AbstractAutoBean.accept(AbstractAutoBean.java:101)
+	at com.google.web.bindery.autobean.shared.impl.AutoBeanCodexImpl.doEncode(AutoBeanCodexImpl.java:560)
+	at com.google.web.bindery.autobean.shared.AutoBeanCodex.encode(AutoBeanCodex.java:83)
+	at com.tarining.project.client.AutoBeanTest.serializeToJson(AutoBeanTest.java:67)
+	at com.tarining.project.client.AutoBeanTest.testEncodePeople(AutoBeanTest.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:59)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:120)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:103)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+</error>
+  </testcase>
+  <testcase classname="com.tarining.project.client.AutoBeanTest" name="testEncodePerson" time="0.004"/>
+</testsuite>

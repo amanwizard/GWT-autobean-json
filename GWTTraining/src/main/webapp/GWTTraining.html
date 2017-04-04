@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>GWTTraining</title>
+    <script type="text/javascript" src="GWTTraining/GWTTraining.nocache.js"></script>
+    
+    <link rel="stylesheet" href="css/jquery.mobile.iscrollview.css" type="text/css"/>
+<link rel="stylesheet" href="css/jquery.mobile.iscrollview-pull.css" type="text/css"/>
+<script src="js/lib/iscroll.js"></script>
+<script src="js/lib/jquery.mobile.iscrollview.js"></script>
+</head>
+<body>
+   <div id="scroller" data-role="content" data-iscroll="">
+ <div class="iscroll-pulldown">
+   <span class="iscroll-pull-icon"></span>
+   <span class="iscroll-pull-label"
+         data-iscroll-loading-text="News is being refreshed"
+         data-iscroll-pulled-text="Release to refresh the news">
+     Refresh the news
+   </span>
+ </div>
+ <div id="newsList"></div>
+</div>
+<script>
+  $(document).ready(function() {
+
+$('#scroller').live("pageinit", function(event) {
+$(".iscroll-wrapper").bind({
+iscroll_onpulldown : onPullDown
+});
+});
+
+function onPullDown(event, data) {
+
+alert('Hello world!Aman');
+
+}
+});
+
+function test()
+{
+
+
+}
+
+
+
+</script>
+</body>
+</html>

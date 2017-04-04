@@ -1,0 +1,26 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+
+   <g:HTMLPanel>
+   
+   
+   
+	<g:Label ui:field="label">
+	</g:Label>
+
+	<g:TextBox ui:field="textbox"></g:TextBox>
+
+
+	<g:Button ui:field="button">Click me</g:Button>
+   
+   <g:Button ui:field="clear">clear</g:Button>
+   
+   </g:HTMLPanel>
+
+
+
+
+
+</ui:UiBinder>
